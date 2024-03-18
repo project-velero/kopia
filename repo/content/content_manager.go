@@ -945,6 +945,7 @@ type ManagerOptions struct {
 	TimeNow                func() time.Time // Time provider
 	DisableInternalLog     bool
 	PermissiveCacheLoading bool
+	AllowWriteOnIndexLoad  bool
 }
 
 // CloneOrDefault returns a clone of provided ManagerOptions or default empty struct if nil.
