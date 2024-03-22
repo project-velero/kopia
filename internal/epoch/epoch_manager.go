@@ -1021,11 +1021,10 @@ func rangeCheckpointBlobPrefix(epoch1, epoch2 int) blob.ID {
 
 func allowWritesOnIndexLoad(fromParam bool) bool {
 	if fromParam {
-		return fromParam
+		return true
 	}
 
 	v := strings.ToLower(os.Getenv("KOPIA_ALLOW_WRITE_ON_INDEX_LOAD"))
-
 	if v == "true" || v == "1" {
 		return true
 	}
