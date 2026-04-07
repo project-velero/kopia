@@ -116,7 +116,7 @@
     "asar": "^3.2.0",
     "concurrently": "^9.0.1",
     "dotenv": "^16.4.5",
-    "electron": "^32.1.2",
+    "electron": "^39.8.5",
     "electron-builder": "^25.0.5",
     "electron-store": "^10.0.0",
     "playwright": "^1.37.1",
